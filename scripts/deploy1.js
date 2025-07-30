@@ -5,7 +5,7 @@ async function main() {
   const myContract = await MyContract.deploy();
 
   await myContract.waitForDeployment();
-  console.log("✅ Contract deployed to:", await myContract.getAddress());
+  console.log(" Contract deployed to:", await myContract.getAddress());
 }
 
 main().catch((error) => {
